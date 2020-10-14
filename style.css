@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body {
+    font-family: sans-serif;
+}
+.head .nav__list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+}
+.nav__list .nav__list--item {
+    width: 50%;
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+  
+    /* transition: background-image .2; */
+}
+
+/* .nav__list .nav__list--item:hover p ,
+.nav__list .nav__list--item.active {
+    background-image: linear-gradient(120deg, #fda085,#f6d365)
+} */
+
+
+/****----------------------------------**/
+
+.get__data {
+    width: 70%;
+    margin: 2rem auto;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.get__data label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: block;
+    padding: 1rem;
+}
+.get__data input {
+    display: block;
+    font-size: 1.8rem;
+    padding: 1rem;
+    outline: none;
+    border: 2px solid #f6d365;
+    border-radius: 30px;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1.5rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: #f6d365;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.button:hover {
+    transform: scale(1.1);
+}
+
+.display__input{
+    background-color: #f0f2f5;
+	min-height: 200px;
+	width: 80%;
+	margin: 2rem auto;
+	border-radius: 5px;
+	box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+}
+.display__input .data {
+    padding: 1rem;
+	margin: 1rem 0;
+	display: flex;
+	font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-image:  linear-gradient(120deg, #f6d365, #fda085);
+
+}
+.data .display{
+   
+    flex: 50%;
+    display: inline-block;
+	font-weight: 700;
+	color: #292f33;
+	text-align: center;
+}
+.data .table__data{
+    flex: 50%;
+    text-align: center;
+}
+.data .remove__item {
+	cursor: pointer;
+	margin-top: -2px;
+}
+
+
+.calc__button{
+    text-align:center ;
+}
+.your__gpa {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}

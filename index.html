@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li id="cur__term" class="nav__list--item active">GPA for this term</li>
+                <li id="total__gpa" class="nav__list--item">Total GPA</li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main id="main" class="main">
+        <div class="calc__gpa--term">
+            <div class="get__data">
+                <label class="lable" for="degree">Enter a subject degree</label>
+                <input class="input" id="degree" type="text" name="degree" placeholder="Degree">
+                <label class="lable" for="hours">Enter a subject credit</label>
+                <input class="input" id="hours" type="text" name="hours" placeholder="hours">
+                <button class="button add_sub">Add Subject</button>
+            </div>
+           <div class="display__input">
+               <div class="data">
+                    <div class="display dis__degree">Degree</div>
+                    <div class="display dis__hours">hours</div>
+                </div>
+           </div>
+           <div class="calc__button">
+                <button class="button calc__gpa">Calculate GPA</button>
+                <p class="your__gpa">Your GPA is : <span class="gpa__value"></span></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
